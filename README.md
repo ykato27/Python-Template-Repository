@@ -9,17 +9,9 @@
 ├── Dockerfile
 ├── README.md
 ├── example
-│   ├── datatime_features_example.ipynb
-│   └── eval_model_example.ipynb
 ├── requirements.txt
 └── src
     ├── __init__.py
-    ├── evaluation
-    │   ├── __init__.py
-    │   └── eval_model.py
-    └── features
-        ├── __init__.py
-        └── make_features.py
 ```
 
 ## 環境詳細
@@ -34,12 +26,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression-Models）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
 ```
-cd Desktop/Regression-Models
+cd Desktop/python-template-repository
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
+* Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
 ```
 docker-compose up --build
 ```
