@@ -11,7 +11,7 @@
 ├── example
 ├── requirements.txt
 └── src
-    ├── __init__.py
+    └── __init__.py
 ```
 
 ## 環境詳細
