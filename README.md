@@ -8,10 +8,19 @@
 .
 ├── Dockerfile
 ├── README.md
-├── example
+├── data
+├── docker-compose.yml
+├── docs
+├── models
+├── notebooks
+├── pyproject.toml
 ├── requirements.txt
-└── src
-    └── __init__.py
+├── setup.cfg
+├── src
+│   └── __init__.py
+├── tests
+│   └── __init__.py
+└── work
 ```
 
 ## 環境詳細
