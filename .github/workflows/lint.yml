@@ -1,8 +1,6 @@
 name: Lint                                                  # ワークフロー名
 on:                                                         # ワークフローの実行タイミング
-  pull_request:                                             # すべてのブランチに対するPull Request時を指定
-    branches:
-      - "**"  
+  push: 
 
 jobs:                                                       # ワークフローは1つ以上のジョブから成る。ジョブは`jobs`の下で定義される
   run-lint:                                                 # このワークフローのジョブは、`run-lint`ひとつだけである。ジョブの参照名はなんでもよい
