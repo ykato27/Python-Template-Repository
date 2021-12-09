@@ -6,7 +6,7 @@ pytest-cov==2.12.1
 pytest-benchmark==3.4.1
 black==21.11b1
 isort==5.10.1
-flake8==4.0.4
+flake8==4.0.1
 flake8-black==0.2.2
 flake8-variables-names==0.0.3
 flake8-pytest-style==1.5.1
